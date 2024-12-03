@@ -1,0 +1,125 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+header, section, footer {
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 1000px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+header {
+    text-align: center;
+    background-color: #67ac68 ;
+    color: white;
+    border-radius: 8px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+
+#about {
+    display: flex;
+    align-items: center;
+}
+
+#about div {
+    flex: 1;
+}
+
+#about h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+#about p {
+    font-size: 1em;
+}
+
+
+#skills {
+    background: #ffffff;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills-container span {
+    background:#67ac68 ;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+
+#projects .project {
+    margin-bottom: 20px;
+}
+
+#projects h3 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+#projects p {
+    font-size: 1em;
+    color: #666;
+}
+
+
+
+
+
+#resume a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #67ac68 ;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+
+#contact p {
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
